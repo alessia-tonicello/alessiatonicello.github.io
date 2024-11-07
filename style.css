@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(to right, #ff6f00, #ff3d71); /* Fucsia e arancio */
+    background: linear-gradient(to right, #ff6f00, #ff3d71 62.18%); /* Fucsia e arancio */
     color: white;
     text-align: center;
     padding: 60px 0;
