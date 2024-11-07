@@ -1,0 +1,140 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f3f9;
+    color: #333;
+    line-height: 1.6;
+    padding-left: 20px; /* Margine a sinistra */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #ff6f91, #9c4e97); /* Fucsia e viola */
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* About Section */
+#about {
+    background-color: #ffffff;
+    padding: 40px 0;
+    margin-left: 40px; /* Margine sinistro più ampio */
+    margin-right: 40px;
+    border-left: 4px solid #ff6f91; /* Linea laterale fucsia */
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff6f91; /* Fucsia */
+}
+
+#about p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Certifications Section */
+#certifications {
+    background-color: #fff3f7; /* Fucsia chiaro */
+    padding: 40px 0;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#certifications h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #9c4e97; /* Viola */
+}
+
+#certifications ul {
+    list-style: none;
+}
+
+#certifications li {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#certifications li strong {
+    color: #ff6f91; /* Fucsia per i titoli */
+}
+
+/* Projects Section */
+#projects {
+    background-color: #ffffff;
+    padding: 40px 0;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #f67280; /* Fucsia/arancio */
+}
+
+.project {
+    background: #f9e0e7; /* Rosa chiaro per i progetti */
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #f67280; /* Fucsia/arancio */
+}
+
+.project p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer a {
+    color: #ff6f91; /* Fucsia */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
