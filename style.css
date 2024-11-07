@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f7f3f9;
+    background-color: #f8f0f7; /* Sfumatura chiara di rosa/panna */
     color: #333;
     line-height: 1.6;
     padding-left: 20px; /* Margine a sinistra */
@@ -20,16 +20,17 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(to right, #ff6f91, #9c4e97); /* Fucsia e viola */
+    background: linear-gradient(to right, #ff6f00, #ff3d71); /* Fucsia e arancio */
     color: white;
     text-align: center;
-    padding: 50px 0;
+    padding: 60px 0;
     margin-left: 10px;
     margin-right: 10px;
+    border-radius: 8px;
 }
 
 header h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-bottom: 10px;
 }
 
@@ -40,16 +41,17 @@ header p {
 /* About Section */
 #about {
     background-color: #ffffff;
-    padding: 40px 0;
+    padding: 50px 0;
     margin-left: 40px; /* Margine sinistro più ampio */
     margin-right: 40px;
-    border-left: 4px solid #ff6f91; /* Linea laterale fucsia */
+    border-left: 5px solid #ff6f00; /* Linea laterale arancione */
+    border-radius: 8px;
 }
 
 #about h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #ff6f91; /* Fucsia */
+    color: #ff6f00; /* Arancio */
 }
 
 #about p {
@@ -61,16 +63,17 @@ header p {
 
 /* Certifications Section */
 #certifications {
-    background-color: #fff3f7; /* Fucsia chiaro */
-    padding: 40px 0;
+    background-color: #fff5f0; /* Fucsia chiaro */
+    padding: 50px 0;
     margin-left: 40px;
     margin-right: 40px;
+    border-radius: 8px;
 }
 
 #certifications h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #9c4e97; /* Viola */
+    color: #ff6f00; /* Arancio */
 }
 
 #certifications ul {
@@ -78,41 +81,42 @@ header p {
 }
 
 #certifications li {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 #certifications li strong {
-    color: #ff6f91; /* Fucsia per i titoli */
+    color: #ff3d71; /* Fucsia */
 }
 
 /* Projects Section */
 #projects {
     background-color: #ffffff;
-    padding: 40px 0;
+    padding: 50px 0;
     margin-left: 40px;
     margin-right: 40px;
+    border-radius: 8px;
 }
 
 #projects h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #f67280; /* Fucsia/arancio */
+    color: #ff6f00; /* Arancio */
 }
 
 .project {
-    background: #f9e0e7; /* Rosa chiaro per i progetti */
+    background: #fff3e1; /* Sfumatura di arancio chiaro */
     padding: 20px;
     margin-bottom: 15px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .project h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 10px;
-    color: #f67280; /* Fucsia/arancio */
+    color: #ff3d71; /* Fucsia */
 }
 
 .project p {
@@ -128,10 +132,11 @@ footer {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
+    border-radius: 8px;
 }
 
 footer a {
-    color: #ff6f91; /* Fucsia */
+    color: #ff6f00; /* Arancio */
     text-decoration: none;
 }
 
